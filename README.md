@@ -72,7 +72,9 @@ docs/screenshot.webp     README screenshot
 
 ## Deployment
 
-The build reads `NEXT_PUBLIC_SITE_URL` for canonical URLs, `hreflang`, the sitemap, `robots.txt` and the Open Graph image. Set it to the production origin before building, for example in the Vercel project environment.
+Live: <https://orza-budget.vercel.app>
+
+The project is hosted on Vercel and builds from `master`. The build reads `NEXT_PUBLIC_SITE_URL` for canonical URLs, `hreflang`, the sitemap, `robots.txt` and the Open Graph image, so it is set to the production origin in the Vercel project environment before the build runs.
 
 ```bash
 npm run build
